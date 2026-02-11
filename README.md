@@ -1,7 +1,7 @@
 # Frontend Dashboard App
 A modern frontend application built using **Next.js App Router, TypeScript**, and **Tailwind CSS**. This project demonstrates core frontend engineering concepts such as component-based architecture, REST API integration, state management with hooks, and responsive UI design.
 
-#### **Live Demo**: https://your-app-name.vercel.app
+#### **Live Demo**: https://frontend-dashboard-gamma-two.vercel.app/
 
 ## 🚀 Features
 - Built with **Next.js (App Router)** and **React**
