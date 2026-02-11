@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Dashboard App
+A modern frontend application built using **Next.js App Router, TypeScript**, and **Tailwind CSS**. This project demonstrates core frontend engineering concepts such as component-based architecture, REST API integration, state management with hooks, and responsive UI design.
 
-## Getting Started
+#### **Live Demo**: https://your-app-name.vercel.app
 
-First, run the development server:
+## 🚀 Features
+- Built with **Next.js (App Router)** and **React**
+- Written in **TypeScript** with proper typing and interfaces
+- Responsive UI using **Tailwind CSS**
+- Fetches data from a **REST API**
+- Handles **loading and error states**
+- Clean, reusable component structure
+- Mobile-friendly and cross-device compatible
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠 Tech Stack
+- **Framework**: Next.js (App Router)
+- **Language**: TypeScript
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+- **Data**: REST API (JSONPlaceholder)
+- **Tools**: Git, GitHub, VS Code
+
+## 📁 Project Structure
+```
+app/
+ ├─ layout.tsx
+ ├─ page.tsx
+ ├─ globals.css
+components/
+ ├─ Navbar.tsx
+ ├─ UserCard.tsx
+types/
+ └─ user.ts
+```
+## 📌 What I Implemented
+- Created reusable React components for UI consistency
+- Implemented client-side data fetching using hooks
+- Added loading and error handling for better user experience
+- Used TypeScript interfaces to ensure type safety
+- Styled responsive layouts using Tailwind utility classes
+- Followed clean code practices and modular structure
+
+## ▶️ Getting Started
+### 1. Clone the repository
+
+```
+git clone https://github.com/your-username/arya-dashboard.git
+cd arya-dashboard
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install dependencies
+```
+npm install
+```
+### 3. Run the development server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
+Open http://localhost:3000 in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 API Used
+- https://jsonplaceholder.typicode.com/users
 
-## Learn More
+## 📚 Learnings
+- Understanding **Next.js App Router** and client components
+- Writing typed React components with TypeScript
+- Managing async data and UI states effectively
+- Building scalable frontend layouts with Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
